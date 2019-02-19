@@ -11,7 +11,7 @@ namespace AspectScope.Sample
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             IServiceContainer serviceContainer = new ServiceContainer();
             serviceContainer.AddAspectScope();

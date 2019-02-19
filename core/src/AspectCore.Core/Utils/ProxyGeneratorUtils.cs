@@ -388,6 +388,14 @@ namespace AspectCore.Utils
                 }
             }
 
+
+            /// <summary>
+            /// 定义类的代理方法
+            /// </summary>
+            /// <param name="serviceType"></param>
+            /// <param name="implType"></param>
+            /// <param name="additionalInterfaces"></param>
+            /// <param name="typeDesc"></param>
             internal static void DefineClassProxyMethods(Type serviceType, Type implType, Type[] additionalInterfaces, TypeDesc typeDesc)
             {
                 foreach (var method in serviceType.GetTypeInfo().GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance).Where(x => !x.IsPropertyBinding()))
