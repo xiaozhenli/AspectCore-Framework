@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspectCore.Extensions.Aspec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{6C87F428-9E87-4532-A18C-DFE2D074956F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{2CF681AB-2CAD-49B4-8051-46A995DB3147}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{6C87F428-9E87-4532-A18C-DFE2D074956F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C87F428-9E87-4532-A18C-DFE2D074956F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C87F428-9E87-4532-A18C-DFE2D074956F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF681AB-2CAD-49B4-8051-46A995DB3147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF681AB-2CAD-49B4-8051-46A995DB3147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF681AB-2CAD-49B4-8051-46A995DB3147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF681AB-2CAD-49B4-8051-46A995DB3147}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{E3697549-3647-479B-B4DA-30F030619451} = {FDF93417-800B-438B-B661-C9A3C40160A2}
 		{39101271-B317-4EE5-AC0F-3B46B5467DFF} = {2AA2A483-6E92-424E-AACA-764DE26605DE}
 		{6C87F428-9E87-4532-A18C-DFE2D074956F} = {9343BCC2-16F1-4256-AF24-0D2952AD0DF1}
+		{2CF681AB-2CAD-49B4-8051-46A995DB3147} = {9343BCC2-16F1-4256-AF24-0D2952AD0DF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE5CEB57-0F38-40D6-9E90-373A7264AAD9}
